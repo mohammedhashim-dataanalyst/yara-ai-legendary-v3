@@ -1,0 +1,2 @@
+package com.yara.ai.games
+class MemoryMatchGame(size:Int=12){val cards=(0 until size/2).flatMap{listOf(it,it)}.shuffled().toMutableList();val found=BooleanArray(size);var first=-1;var moves=0;fun flip(i:Int):Boolean{if(i !in cards.indices||found[i]||i==first)return false;if(first<0){first=i;return true};moves++;if(cards[first]==cards[i]){found[first]=true;found[i]=true};first=-1;return true};fun complete()=found.all{it}}

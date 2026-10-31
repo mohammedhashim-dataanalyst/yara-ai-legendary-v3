@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <files-path name="voice_notes" path="voice_notes/"/>
+    <files-path name="exports" path="exports/"/>
+    <files-path name="yara_brain" path="yara_brain/"/>
+    <cache-path name="cache" path="."/>
+</paths>

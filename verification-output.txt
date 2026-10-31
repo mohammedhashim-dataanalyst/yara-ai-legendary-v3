@@ -1,0 +1,128 @@
+FEATURE COVERAGE
+bilingual: 2
+short_replies: 2
+emotes: 2
+emoji: 2
+typing_indicator: 2
+voice_notes: 3
+video_call: 2
+screen_share: 2
+message_copy: 2
+quick_reply: 4
+wake_word: 2
+sleep_word: 2
+continuous_listen: 2
+voice_modulation: 2
+background_talk: 3
+voice_commands: 2
+active_memory: 4
+auto_learn: 3
+offline_brain: 2
+context_memory: 2
+emotion_detect: 2
+emotion_voice: 2
+mood_mirror: 4
+proactive_checkins: 4
+daily_briefing: 2
+reminders: 2
+conversation_starter: 2
+open_apps: 3
+send_messages: 3
+screen_read: 3
+tap_control: 3
+camera_access: 2
+gallery_access: 2
+storage_access: 2
+notification_access: 2
+phone_call: 3
+overlay_chathead: 2
+overlay_bubble: 2
+overlay_auto_hide: 2
+background_service: 2
+boot_start: 2
+doc_reader: 2
+photo_share: 2
+data_analytics: 2
+business_analytics: 2
+financial_analytics: 2
+coding_help: 2
+real_time_translate: 2
+games: 5
+roleplay: 2
+quiz: 2
+jokes: 2
+lang_malayalam: 2
+lang_english: 2
+lang_hindi: 2
+lang_tamil: 2
+lang_arabic: 2
+api_gemini: 2
+api_grok: 2
+api_openrouter: 2
+api_huggingface: 2
+api_autoswitch: 3
+api_load_balance: 2
+api_fallback_local: 2
+api_rate_limit: 2
+backup_auto: 2
+restore_data: 2
+local_only: 2
+morning_greet: 3
+night_greet: 3
+ask_about_day: 3
+time_aware: 2
+acc_swipe: 2
+acc_text: 2
+acc_read: 2
+exp_avatar: 2
+exp_emotion_cam: 2
+device_control: 2
+notification_sentinel: 2
+vip_alerts: 4
+default_assistant: 2
+floating_orb: 4
+media_control: 6
+whatsapp_automation: 3
+live_assist: 2
+ambient_scenes: 2
+ambient_emotes: 2
+ludo_rules: 2
+connect_four: 2
+memory_match: 2
+snakes_ladders: 2
+tic_tac_toe: 2
+backup_restore: 2
+persona_modes: 2
+FEATURE_COVERAGE_FAIL=False
+CATALOG_ENTRY_COUNT=94
+DATA_CLASS EmoteParticle: missing=[]
+DATA_CLASS YaraBackup: missing=[]
+DATA_CLASS ChatMessage: missing=[]
+DATA_CLASS Memory: missing=[]
+DATA_CLASS TraitSetting: missing=[]
+DATA_CLASS ProviderState: missing=[]
+DATA_CLASS UserProfile: missing=[]
+DATA_CLASS RecentNotification: missing=[]
+DATA_CLASS YaraFeature: missing=[]
+DATA_CLASS LudoToken: missing=[]
+DATA_CLASS LocalReminder: missing=[]
+DATA_CLASS AvatarEmotionParams: missing=[]
+DATA_CLASS LipFrame: missing=[]
+DATA_CLASS Part: missing=[]
+XML_OK=True
+FORBIDDEN ExposedDropdownMenuBox=False
+FORBIDDEN menuAnchor=False
+FORBIDDEN \bDivider\s*\(=False
+FORBIDDEN LocalLifecycleOwner=False
+FORBIDDEN onActivityResult=False
+FORBIDDEN GlobalScope=False
+MANIFEST__assist_LiveAssistService=True
+MANIFEST__ambient_AmbientOverlayService=True
+MANIFEST__ui_VideoCallActivity=True
+MANIFEST__ui_ScreenShareActivity=True
+SCENE_FILES=True
+EMOTE_FILES=True
+GAME_FILES=True
+MLKIT_TRY_CATCH=True
+VIDEO_SCREEN_REFERENCED=True
+RESULT=PASS

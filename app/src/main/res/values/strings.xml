@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Yara</string>
+    <string name="channel_name">Yara Companion</string>
+    <string name="channel_desc">Messages and check-ins from Yara</string>
+    <string name="accessibility_service_description">Yara screen control - lets Yara open apps and tap on screen at your voice command</string>
+</resources>
